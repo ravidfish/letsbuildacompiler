@@ -13,7 +13,8 @@
 #include <stdio.h>
 #include "asmheader.h"
 
-//This code is from http://zathras.de/angelweb/blog-intel-assembler-on-mac-os-x.htm
+//Reading http://zathras.de/angelweb/blog-intel-assembler-on-mac-os-x.htm helped me
+//get started in generating the skeleton code
 
 void asmheader() {
 	printf("#assemble/link with 'gcc file.s -o file\n");
